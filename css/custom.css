@@ -1,0 +1,51 @@
+/********* 
+
+custom css for the footer
+
+**********/
+p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	margin-bottom: 24px;
+}
+.row{
+	max-width: initial;
+}
+
+#content{
+	padding: 50px;
+}
+#footer{
+	background: none repeat scroll 0% 0% #292929;
+	color: rgba(255, 255, 255, 0.8);
+	padding: 25px 80px 5px 80px; 
+}
+#footer h5{
+  	font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    line-height: 28px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8);
+
+}
+.footer-lower span {
+	 opacity: 0.6;
+    font-size: 12px;
+}
+.footer-lower .social-links{
+	float: right;
+}
+.footer-lower .social-links li{
+	overflow: hidden;
+	display: inline;
+	margin: 10px;
+
+}
+.footer-lower .social-links a{
+	font-size: 16px;
+	opacity: 0.5;
+	transition: all 0.3s ease 0s;
+	color: #FFF;
+}
